@@ -1,0 +1,55 @@
+.owl-carousel.equal-height .owl-stage {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+}
+.owl-carousel .owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+    background: #fff;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #aaa;
+}
+
+.home-carousel {
+    color: #fff;
+}
+
+.home-carousel .owl-carousel {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.home-carousel h1, .home-carousel h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.home-carousel li, .home-carousel p {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.home-carousel p img {
+    max-width: 200px;
+}

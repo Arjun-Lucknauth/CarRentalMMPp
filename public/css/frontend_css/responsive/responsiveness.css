@@ -1,0 +1,73 @@
+@media (max-width: 991px) {
+    #navbar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #navbar .menu-large .megamenu {
+        width: 100%;
+        left: 0 !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+    #navbar .navbar-collapse {
+        max-height: 600px;
+        overflow-y: auto;
+        margin-top: 1rem;
+    }
+    #navbar .navbar-nav > li > a {
+        padding: 0 10px;
+        height: 45px;
+        line-height: 45px;
+        border-top: 0;
+        font-size: 0.85rem;
+        width: 100%;
+    }
+    #navbar .navbar-nav > li > a:hover {
+        background: rgba(79, 191, 168, 0.5);
+        border-color: rgba(79, 191, 168, 0.8);
+    }
+    #navbar .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+@media (max-width: 767px) {
+    .home-carousel {
+        text-align: center !important;
+    }
+    .home-carousel p, .home-carousel h1, .home-carousel ul {
+        text-align: center !important;
+    }
+    .home-carousel img {
+        margin: 10px auto;
+    }
+}
+@media (max-width: 767px) {
+    .box-footer {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    .box-footer a {
+        margin-bottom: 10px !important;
+    }
+}
+@media (max-width: 767px) {
+    .nav-pills {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (min-width: 576px) {
+    .card-deck {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .card-deck .card {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}

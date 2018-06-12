@@ -1,0 +1,39 @@
+/*
+* 5. DROPDOWNS
+*/
+.dropdown-menu {
+    z-index: 1000;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}
+
+.dropdown-item {
+    padding: 0.25rem 1.5rem;
+    color: #212529;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    background-color: #f8f9fa;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #4fbfa8;
+}
+
+.dropdown-item.disabled, .dropdown-item:disabled {
+    color: #868e96;
+}
+
+.dropdown-header {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.7rem;
+    color: #868e96;
+}

@@ -1,0 +1,53 @@
+.icon-outlined {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+}
+
+.icon-outlined.icon-lg {
+    font-size: 2rem;
+}
+
+.icon-outlined.icon-sm {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.icon-outlined.icon-thin {
+    border-width: 1px;
+}
+
+.icon-filled {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #4fbfa8;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0.75rem;
+}
+
+.ul-icons .icon-filled {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ul-icons li {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.ul-icons a {
+    display: inline;
+}
